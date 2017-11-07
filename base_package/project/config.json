@@ -1,0 +1,11 @@
+[
+    {
+        "name":"README.md",
+        "type":"file"
+    },
+    {
+        "name":".gitignore",
+        "type":"file",
+        "file_template":"gitignore"
+    }
+]
