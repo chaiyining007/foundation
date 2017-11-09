@@ -1,5 +1,5 @@
 {
-  "name": "CBF",
+  "name": "foundation-project",
   "version": "1.0.0",
   "description": "自动化构建基础代码",
   "main": "create.js",
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/chaiyining007/foundation.git"
   },
+  "keywords": [
+    "自动创建",
+    "创建基础项目",
+    "基础代码"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
