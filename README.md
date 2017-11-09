@@ -1,12 +1,12 @@
 # 自动化构建基础代码
 ## 使用
-```
+```sh
 npm run create 项目名称 -- --[package_name=包名称，默认project]
 ```
 ## 目录
 ### 1、base_package _模板文件以及配置_
 > config.json  基本数据结构
-```
+```js
 // 
 [
   {
@@ -23,7 +23,7 @@ npm run create 项目名称 -- --[package_name=包名称，默认project]
 ]
 ```
 > template  用于渲染的模板库
-```
+```js
 // vue 组件例子
 
 module.exports = (base_data) =>
