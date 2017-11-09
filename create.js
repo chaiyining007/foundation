@@ -41,8 +41,10 @@ const _createDirPromise = (dir = '') => new Promise(resolve => {
 const _create = async function (config_data, parent = "") {
     for (let { name, type, files, file_template } of config_data) {
         if (type === "dir") {
-            await _createDirPromise(name)
-            _create(files, name);
+            // console.log(parent,name)
+            await _createDirPromise(`${parent}${path.sep}${name}`);
+            console.log(`${parent}${path.sep}${name}`)
+            files && _create(files, `${parent}${path.sep}${name}`);
         } else {
             await _createFilePromise(`${parent}${path.sep}${name}`, file_template);
         }

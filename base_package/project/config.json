@@ -1,11 +1,35 @@
 [
-    {
-        "name":"README.md",
-        "type":"file"
-    },
-    {
-        "name":".gitignore",
-        "type":"file",
-        "file_template":"gitignore"
-    }
+  {
+    "name": "main",
+    "type": "dir",
+    "files": [
+      {
+        "name": "view",
+        "type": "dir",
+        "files": [
+          {
+            "name": "public",
+            "type": "dir"
+          },
+          {
+            "name": "pages",
+            "type": "dir"
+          }
+        ]
+      },
+      {
+        "name": "public",
+        "type": "dir"
+      }
+    ]
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  },
+  {
+    "name": ".gitignore",
+    "type": "file",
+    "file_template": "gitignore"
+  }
 ]
