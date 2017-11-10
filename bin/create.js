@@ -10,7 +10,7 @@ const { package_name = "project" } = argv;
 const packages = `../base_package/`;
 const configs = require(`${packages}${package_name}/config.json`);
 
-const PRINT = `${path.resolve('./')}${path.sep}print`;
+const PRINT = `${path.resolve('./')}${path.sep}`;
 program
     .version(version)
     .parse(process.argv);

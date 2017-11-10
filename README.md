@@ -1,7 +1,25 @@
 # 自动化构建基础代码
+
+## 安装
+```sh
+npm install foundation-project -g
+```
 ## 使用
 ```sh
 create 项目名称 --[package_name=包名称，默认project]
+```
+## 配置
+```sh
+#超级小白走法
+which create #/usr/local/bin/create
+cd /usr/local/bin
+ll -al | grep create #create -> ../lib/node_modules/foundation-project/bin/create.js
+cd ../lib/node_modules
+
+#老鸟走法
+cd /usr/local/lib/node_modules
+
+#找到  foundation-project  打开自己的编辑器编辑
 ```
 ## 目录
 ### 1、base_package _模板文件以及配置_
@@ -44,4 +62,3 @@ export default {
 </style>
 `;
 ```
-### 2、print _输出_
