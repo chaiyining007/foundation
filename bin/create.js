@@ -1,12 +1,20 @@
+#!/usr/bin/env node
+
+const { version } = require('../package.json');
+const program = require('commander');
 const fs = require('fs');
 const path = require('path');
 const argv = require('yargs').argv;
 const [name] = argv._;
 const { package_name = "project" } = argv;
-const packages = `./base_package/`;
+const packages = `../base_package/`;
 const configs = require(`${packages}${package_name}/config.json`);
 
-const PRINT = `${__dirname}${path.sep}print`;
+const PRINT = `${path.resolve('./')}${path.sep}print`;
+program
+    .version(version)
+    .parse(process.argv);
+
 const _createFilePromise = (file_name, file_template) => new Promise(resolve => {
     const _file_path = `${PRINT}${path.sep}${file_name}`;
     let _template = "";
@@ -58,4 +66,3 @@ const _create = async function (config_data, parent = "") {
     await _create(configs, name);
     console.log(`全部完成`);
 })();
-

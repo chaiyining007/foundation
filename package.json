@@ -1,10 +1,11 @@
 {
   "name": "foundation-project",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "自动化构建基础代码",
   "main": "create.js",
   "scripts": {
-    "create": "node --max-old-space-size=1024 create.js"
+    "create": "node --max-old-space-size=1024 create.js",
+    "test": "node --max-old-space-size=1024 bin/create.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,9 @@
     "创建基础项目",
     "基础代码"
   ],
+  "bin": {
+    "create": "./bin/create.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -22,6 +26,7 @@
   },
   "homepage": "https://github.com/chaiyining007/foundation#readme",
   "dependencies": {
+    "commander": "^2.11.0",
     "yargs": "^10.0.3"
   }
 }
