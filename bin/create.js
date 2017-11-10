@@ -14,7 +14,6 @@ const PRINT = `${path.resolve('./')}${path.sep}print`;
 program
     .version(version)
     .parse(process.argv);
-
 const _createFilePromise = (file_name, file_template) => new Promise(resolve => {
     const _file_path = `${PRINT}${path.sep}${file_name}`;
     let _template = "";
