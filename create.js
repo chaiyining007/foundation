@@ -16,7 +16,11 @@ const _createFilePromise = (file_name, file_template) => new Promise(resolve => 
         _template = _template();
     }
     catch (e) {
-        console.warn(`未找到渲染模板：${_file_template_path}`);
+        if (file_template) {
+            console.warn(`未找到渲染模板：${_file_template_path}`);
+        } else {
+            console.warn(`${file_name}：未配置渲染模板，已空文件处理`);
+        }
     }
     finally {
         fs.writeFile(_file_path, _template, (err) => {
@@ -41,15 +45,17 @@ const _createDirPromise = (dir = '') => new Promise(resolve => {
 const _create = async function (config_data, parent = "") {
     for (let { name, type, files, file_template } of config_data) {
         if (type === "dir") {
-            // console.log(parent,name)
             await _createDirPromise(`${parent}${path.sep}${name}`);
-            console.log(`${parent}${path.sep}${name}`)
             files && _create(files, `${parent}${path.sep}${name}`);
         } else {
             await _createFilePromise(`${parent}${path.sep}${name}`, file_template);
         }
     }
 };
-_createDirPromise().then(() => {
-    _create(configs)
-});
+(async function () {
+    await _createDirPromise();
+    await _createDirPromise(name);
+    await _create(configs, name);
+    console.log(`全部完成`);
+})();
+
