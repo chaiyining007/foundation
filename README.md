@@ -8,6 +8,15 @@ npm install foundation-project -g
 ```sh
 create 项目名称 --[package_name=包名称，默认project]
 ```
+
+## packageNames
+
+1. project：项目(默认值)
+
+2. component：vue组件
+
+3. vue1：vue模板1
+
 ## 配置
 ```sh
 #超级小白走法

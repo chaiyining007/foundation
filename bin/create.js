@@ -59,9 +59,14 @@ const _create = async function (config_data, parent = "") {
         }
     }
 };
+
 (async function () {
     await _createDirPromise();
-    await _createDirPromise(name);
+    let _path = name.split('/');
+    for (let i = 0; i < _path.length; i++) {
+        await _createDirPromise(_path.slice(0, i+1).join('//'));
+    }
+
     await _create(configs, name);
     console.log(`全部完成`);
 })();
