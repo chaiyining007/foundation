@@ -1,18 +1,7 @@
 [
   {
-    "name": "my-component",
-    "type": "dir",
-    "files": [
-      {
-        "name": "base-component1.vue",
-        "type": "file",
-        "file_template":"component"
-      },
-      {
-        "name": "base-component2.vue",
-        "type": "file",
-        "file_template":"component"
-      }
-    ]
+    "name": "component.vue",
+    "type": "file",
+    "file_template":"component"
   }
 ]

@@ -19,7 +19,10 @@
   "bin": {
     "create": "./bin/create.js"
   },
-  "author": "",
+  "author": {
+    "name":"柴逸宁",
+    "email":"130016001@qq.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chaiyining007/foundation/issues"
