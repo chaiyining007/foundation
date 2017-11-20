@@ -1,6 +1,6 @@
 module.exports = (base_data) => {
     let name = `${base_data.name[0].toLocaleUpperCase()}${base_data.name.substring(1)}`;
-    return 
+    const template=
 `module.exports = app => {
     const { CHAR, TEXT, BIGINT } = app.Sequelize;
 
@@ -22,4 +22,5 @@ module.exports = (base_data) => {
     return ${name};
 };
 `
+    return template;
 }
