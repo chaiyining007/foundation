@@ -1,0 +1,41 @@
+[
+    {
+        "name": "controller",
+        "type": "dir",
+        "files": [
+            {
+                "name": "api",
+                "type": "dir",
+                "files": [
+                    {
+                        "name": "new-controller.js",
+                        "type": "file",
+                        "file_template": "default_controller"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "type": "dir",
+        "files": [
+            {
+                "name": "new-model.js",
+                "type": "file",
+                "file_template": "default_model"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "type": "dir",
+        "files": [
+            {
+                "name": "new-service.js",
+                "type": "file",
+                "file_template": "default_service"
+            }
+        ]
+    }
+]

@@ -20,7 +20,7 @@ const _createFilePromise = (file_name, file_template) => new Promise(resolve => 
     const _file_template_path = `${packages}${package_name}${path.sep}template${path.sep}${file_template}.js`
     try {
         _template = require(_file_template_path);
-        _template = _template();
+        _template = _template({ name: name });
     }
     catch (e) {
         if (file_template) {
@@ -64,7 +64,7 @@ const _create = async function (config_data, parent = "") {
     await _createDirPromise();
     let _path = name.split('/');
     for (let i = 0; i < _path.length; i++) {
-        await _createDirPromise(_path.slice(0, i+1).join('//'));
+        await _createDirPromise(_path.slice(0, i + 1).join('//'));
     }
 
     await _create(configs, name);
