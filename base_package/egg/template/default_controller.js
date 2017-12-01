@@ -2,7 +2,7 @@ module.exports = (base_data) => {
     let name = `${base_data.name[0].toLocaleUpperCase()}${base_data.name.substring(1)}`;
     const template=
 `const path = require('path');
-const BaseController = require(\`${path.resolve('./app/base/BaseController.js')}\`);
+const BaseController = require(`+'`${path.resolve("./app/base/BaseController.js")}`'+`);
 /**
  * 类：
  * 说明：
