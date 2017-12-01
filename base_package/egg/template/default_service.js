@@ -1,8 +1,9 @@
 module.exports = (base_data) => {
     let name = `${base_data.name[0].toLocaleUpperCase()}${base_data.name.substring(1)}`;
     const template=
-`const egg = require('egg');
-class ${name}Service extends egg.Service {
+`const path = require('path');
+const BaseService = require(\`${path.resolve('./app/base/BaseService.js')}\`);
+class ${name}Service extends BaseService {
     * insert(data) {
         const { app, ctx } = this;
         const reg_data = Object.assign({}, data);
