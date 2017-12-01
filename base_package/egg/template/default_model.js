@@ -18,7 +18,9 @@ module.exports = (base_data) => {
             }
         },
     });
-
+    ${name}.associate = function(){
+        //app.model.models
+    }
     return ${name};
 };
 `
