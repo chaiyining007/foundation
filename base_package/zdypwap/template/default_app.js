@@ -1,6 +1,6 @@
 module.exports = (base_data) => `/*页面级，组件 */
 <template>
-    <div class="${base_data.name}">
+    <div class="${base_data.name.split('/')[base_data.name.split('/').length-1]}">
         
     </div>
 </template>
