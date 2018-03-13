@@ -1,81 +1,50 @@
-[{
-    "name": "sass",
-    "type": "dir",
-    "files": [{
-        "name": "style.scss",
-        "type": "file",
-        "file_template": ""
-    }]
-}, {
-    "name": "css",
-    "type": "dir",
-    "files": [{
-        "name": "style.css",
-        "type": "file",
-        "file_template": ""
-    }]
-},{
-    "name": "language",
-    "type": "dir",
-    "files": [{
-        "name": "en.json",
-        "type": "file",
-        "file_template": "default_json"
-    },{
-        "name": "cn.json",
-        "type": "file",
-        "file_template": "default_json"
-    },{
-        "name": "index.js",
-        "type": "file",
-        "file_template": "default_language_index"
-    }]
-}, {
-    "name": "src",
-    "type": "dir",
-    "files": [{
-        "name": "components",
-        "type": "dir",
-        "files": [{
-            "name": "my-component.vue",
-            "type": "file",
-            "file_template": "default_component"
-        }]
-    }, {
-        "name": "computed.js",
-        "type": "file",
-        "file_template": "default_computed"
-    }, {
-        "name": "data.js",
-        "type": "file",
-        "file_template": "default_data"
-    }, {
-        "name": "methods.js",
-        "type": "file",
-        "file_template": "default_methods"
-    }, {
-        "name": "watch.js",
-        "type": "file",
-        "file_template": "default_watch"
-    }]
-}, {
-    "name": "template",
-    "type": "dir",
-    "files": [{
-        "name": "main.thtml",
-        "type": "file",
-        "file_template": "default_thtml"
-    }, {
-        "name": "template.js",
-        "type": "file",
-        "file_template": ""
-    }]
-}, {
-    "name": "main.js",
-    "type": "file",
-    "file_template": "default_app"
-}, {
-    "name": "template.html",
-    "type": "file",
-    "file_template": "default_html"
-}]
+[
+	{
+		"name": "sass",
+		"type": "dir",
+		"files": [
+			{
+				"name": "style.scss",
+				"type": "file",
+				"file_template": ""
+			}
+		]
+	},
+	{
+		"name": "src",
+		"type": "dir",
+		"files": [
+			{
+				"name": "components",
+				"type": "dir",
+				"files": [
+					{
+						"name": "my-component.vue",
+						"type": "file",
+						"file_template": "default_component"
+					}
+				]
+			},
+			{
+				"name": "computed.js",
+				"type": "file",
+				"file_template": "default_computed"
+			},
+			{
+				"name": "methods.js",
+				"type": "file",
+				"file_template": "default_methods"
+			},
+			{
+				"name": "watch.js",
+				"type": "file",
+				"file_template": "default_watch"
+			}
+		]
+	},
+	{
+		"name": "main.vue",
+		"type": "file",
+		"file_template": "default_app"
+	}
+]
