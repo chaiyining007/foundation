@@ -6,6 +6,7 @@ module.exports = (base_data) => `/*页面级，组件 */
 </template>
 <script>
 import ajax from "main/public/src/ajax.js";
+import {Message} from "iview";
 import Main from "components/Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
@@ -19,24 +20,24 @@ export default {
     methods: methods,
     computed: computed,
     components: {
-        Main
+        Main,Message
     },
-    mounted:async function() {
-        const { biz_action, biz_msg, data } = ajax({
+    mounted: async function() {
+        const { biz_action, biz_msg, data } = await ajax({
             url:"/",
-            method: 'post',//get,post,put,deete,patch
+            method: 'get',//get,post,put,deete,patch
             data:{},
             params:{}
         });
         if (!biz_action) {
-            window.location.href = "/admin/admin_users/sign_in";
+            
         } else {
-            this.$Message.error(biz_msg || "系统繁忙，请稍后再试");
+            Message.error(biz_msg || "系统繁忙，请稍后再试");
         }
     }
 };
 </script>
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 @import './sass/style.scss';
 </style>
 `;
