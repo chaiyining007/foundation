@@ -6,7 +6,6 @@ module.exports = (base_data) => `/*页面级，组件 */
 </template>
 <script>
 import ajax from "main/public/src/ajax.js";
-import {Message} from "iview";
 import Main from "components/Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
@@ -20,7 +19,7 @@ export default {
     methods: methods,
     computed: computed,
     components: {
-        Main,Message
+        Main
     },
     mounted: async function() {
         const { biz_action, biz_msg, data } = await ajax({
@@ -32,7 +31,7 @@ export default {
         if (!biz_action) {
             
         } else {
-            Message.error(biz_msg || "系统繁忙，请稍后再试");
+            this.$Message.error(biz_msg || "系统繁忙，请稍后再试");
         }
     }
 };

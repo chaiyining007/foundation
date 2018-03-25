@@ -7,7 +7,6 @@ module.exports = (base_data)=>
 ps: https://cn.vuejs.org/v2/api/#methods
 */
 import ajax from "main/public/src/ajax.js";
-import {Message} from "iview";
 export default {
     
 };
