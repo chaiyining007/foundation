@@ -19,6 +19,12 @@ create 项目名称 --[package_name=包名称，默认project]
 
 4. egg：egg3层模板：包含：controller，model，service
 
+5. zdyp_backstage
+
+6. zdypwap
+
+7. mcn
+
 ## 配置
 ```sh
 #超级小白走法
