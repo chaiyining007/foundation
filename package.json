@@ -1,10 +1,10 @@
 {
   "name": "foundation-project",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "自动化构建基础代码",
   "main": "",
   "scripts": {
-    "test":"node bin/create.js"
+    "test": "node bin/create.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
     "create": "./bin/create.js"
   },
   "author": {
-    "name":"柴逸宁",
-    "email":"130016001@qq.com"
+    "name": "柴逸宁",
+    "email": "130016001@qq.com"
   },
   "license": "ISC",
   "bugs": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/chaiyining007/foundation#readme",
   "dependencies": {
     "commander": "^2.11.0",
+    "download": "^7.1.0",
     "yargs": "^10.0.3"
   }
 }

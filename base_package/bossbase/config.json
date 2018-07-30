@@ -89,7 +89,24 @@
   },
   {
     "name": "libs",
-    "type": "dir"
+    "type": "dir",
+    "files": [
+      {
+        "name": "css",
+        "type": "dir",
+        "files": [
+          {
+            "name": "iview.css",
+            "type": "file",
+            "download":"http://g.togetu.in/h5-mcn/libs/css/iview.css"
+          }
+        ]
+      },
+      {
+        "name": "js",
+        "type": "dir"
+      }
+    ]
   },
   {
     "name": "README.md",
