@@ -98,7 +98,33 @@
           {
             "name": "iview.css",
             "type": "file",
-            "download":"http://g.togetu.in/h5-mcn/libs/css/iview.css"
+            "download": "http://g.togetu.in/base-file/css/iview.css"
+          },
+          {
+            "name": "fonts",
+            "type": "dir",
+            "files": [
+              {
+                "name": "ionicons.eot",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.eot"
+              },
+              {
+                "name": "ionicons.svg",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.svg"
+              },
+              {
+                "name": "ionicons.ttf",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.ttf"
+              },
+              {
+                "name": "ionicons.woff",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.woff"
+              }
+            ]
           }
         ]
       },
