@@ -40,9 +40,9 @@ const _createFilePromise = (file_name, file_template, download_url) => new Promi
     }
   }
   if (download_url) {
-    console.log(`开始 下载${download_url}`)
-    download(download_url, _file_path).then(() => {
-      console.log(`下载完成：${_file_path}`)
+    console.log(`开始下载${download_url}`)
+    download(download_url, path.dirname(_file_path)).then(() => {
+      console.log(`下载完成：${path.dirname(_file_path)}`)
       resolve()
     });
   }
@@ -64,7 +64,7 @@ const _create = async function (config_data, parent = "") {
   for (let { name, type, files, file_template, download } of config_data) {
     if (type === "dir") {
       await _createDirPromise(`${parent}${path.sep}${name}`);
-      files && _create(files, `${parent}${path.sep}${name}`);
+      files && await _create(files, `${parent}${path.sep}${name}`);
     } else {
       await _createFilePromise(`${parent}${path.sep}${name}`, file_template, download);
     }
