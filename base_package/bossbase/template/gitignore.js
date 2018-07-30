@@ -1,0 +1,21 @@
+module.exports = (base_data) => `*.DS_Store
+/.idea
+/.git
+/node_modules/
+node_modules
+/node_modules/*
+.idea
+.git
+npm-debug.log
+private_config.json
+/dist
+/dev
+/test
+/language_files
+npm-debug.log.*
+html.html
+package-lock.json
+/cli/translation/import
+/cli/translation/print
+/conf
+`;

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "main",
+    "type": "dir"
+  },
+  {
+    "name": "cli",
+    "type": "dir",
+    "files": [
+      {
+        "name": "build",
+        "type": "dir",
+        "files": [
+          {
+            "name": "build.dev.js",
+            "type": "file",
+            "file_template": "default_build_dev"
+          },
+          {
+            "name": "build.js",
+            "type": "file",
+            "file_template": "default_build"
+          },
+          {
+            "name": "build.test.js",
+            "type": "file",
+            "file_template": "default_build_test"
+          },
+          {
+            "name": "build.location.js",
+            "type": "file",
+            "file_template": "default_build_location"
+          }
+        ]
+      },
+      {
+        "name": "configs",
+        "type": "dir",
+        "files": [
+          {
+            "name": "css.loaders.js",
+            "type": "file",
+            "file_template": "default_css_loaders"
+          },
+          {
+            "name": "webpack.config.base.js",
+            "type": "file",
+            "file_template": "default_webpack_config_base"
+          },
+          {
+            "name": "webpack.config.dev.js",
+            "type": "file",
+            "file_template": "default_webpack_config_dev"
+          },
+          {
+            "name": "webpack.config.location.js",
+            "type": "file",
+            "file_template": "default_webpack_config_location"
+          },
+          {
+            "name": "webpack.config.pro.js",
+            "type": "file",
+            "file_template": "default_webpack_config_pro"
+          },
+          {
+            "name": "webpack.config.test.js",
+            "type": "file",
+            "file_template": "default_webpack_config_test"
+          }
+        ]
+      },
+      {
+        "name": "translation",
+        "type": "dir",
+        "files": [
+          {
+            "name": "json_to_language_file.js",
+            "type": "file",
+            "file_template": "default_json_to_language_file"
+          },
+          {
+            "name": "language_file_to_json.js",
+            "type": "file",
+            "file_template": "default_language_file_to_json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "libs",
+    "type": "dir"
+  },
+  {
+    "name": "README.md",
+    "type": "file",
+    "file_template": "README"
+  },
+  {
+    "name": ".gitignore",
+    "type": "file",
+    "file_template": "gitignore"
+  },
+  {
+    "name": ".babelrc",
+    "type": "file",
+    "file_template": "babelrc"
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "file_template": "package"
+  }
+]
