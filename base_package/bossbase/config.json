@@ -1,7 +1,184 @@
 [
   {
     "name": "main",
-    "type": "dir"
+    "type": "dir",
+    "files": [
+      {
+        "name": "App.vue",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/main/App.vue"
+      },
+      {
+        "name": "main.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/main/main.js"
+      },
+      {
+        "name": "template.html",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/main/template.html"
+      },
+      {
+        "name": "language",
+        "type": "dir",
+        "files": [
+          {
+            "name": "cn.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/cn.json"
+          },
+          {
+            "name": "en.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/en.json"
+          },
+          {
+            "name": "in.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/in.json"
+          },
+          {
+            "name": "date_time_cn.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/date_time_cn.json"
+          },
+          {
+            "name": "date_time_en.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/date_time_en.json"
+          },
+          {
+            "name": "date_time_in.json",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/date_time_in.json"
+          },
+          {
+            "name": "global_i18n.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/global_i18n.js"
+          },
+          {
+            "name": "index.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/language/index.js"
+          }
+        ]
+      },
+      {
+        "name": "pages",
+        "type": "dir",
+        "files": [
+          {
+            "name": "error",
+            "type": "dir",
+            "files": [
+              {
+                "name": "404",
+                "type": "dir",
+                "files": [
+                  {
+                    "name": "main.vue",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/error/404/main.vue"
+                  }
+                ]
+              },
+              {
+                "name": "500",
+                "type": "dir",
+                "files": [
+                  {
+                    "name": "main.vue",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/error/500/main.vue"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "index",
+            "type": "dir",
+            "files": [
+              {
+                "name": "main.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/pages/index/main.vue"
+              }
+            ]
+          },
+          {
+            "name": "login",
+            "type": "dir",
+            "files": [
+              {
+                "name": "main.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/pages/login/main.vue"
+              },
+              {
+                "name": "language",
+                "type": "dir",
+                "files": [
+                  {
+                    "name": "cn.json",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/language/cn.json"
+                  },
+                  {
+                    "name": "en.json",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/language/en.json"
+                  },
+                  {
+                    "name": "in.json",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/language/in.json"
+                  },
+                  {
+                    "name": "index.js",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/language/index.js"
+                  }
+                ]
+              },
+              {
+                "name": "sass",
+                "type": "dir",
+                "files": [
+                  {
+                    "name": "style.scss",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/sass/style.scss"
+                  }
+                ]
+              },
+              {
+                "name": "src",
+                "type": "dir",
+                "files": [
+                  {
+                    "name": "computed.js",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/src/computed.js"
+                  },
+                  {
+                    "name": "methods.js",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/src/methods.js"
+                  },
+                  {
+                    "name": "watch.js",
+                    "type": "file",
+                    "download": "http://g.togetu.in/base-file/main/pages/login/src/watch.js"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "cli",
@@ -130,7 +307,39 @@
       },
       {
         "name": "js",
-        "type": "dir"
+        "type": "dir",
+        "files": [
+          {
+            "name": "iview.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/iview.js"
+          },
+          {
+            "name": "iview.min.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/iview.min.js"
+          },
+          {
+            "name": "vue-i18n.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/vue-i18n.js"
+          },
+          {
+            "name": "vue-i18n.min.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/vue-i18n.min.js"
+          },
+          {
+            "name": "vue.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/vue.js"
+          },
+          {
+            "name": "vue.min.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/js/vue.min.js"
+          }
+        ]
       }
     ]
   },
