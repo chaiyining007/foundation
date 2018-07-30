@@ -40,7 +40,9 @@ const _createFilePromise = (file_name, file_template, download_url) => new Promi
     }
   }
   if (download_url) {
+    console.log(`开始 下载${download_url}`)
     download(download_url, `${packages}${package_name}${path.sep}template${path.sep}`).then(() => {
+      console.log(`下载完成：${download_url},${packages}${package_name}${path.sep}template${path.sep}`)
       resolve()
     });
   }
