@@ -28,7 +28,7 @@ export default {
         console.log('$route：',this.$route);
         const { seccess,error,data } = await ajax({
             url:"/",
-            method: 'get',//get,post,put,deete,patch
+            method: 'get',//get,post,put,delete,patch
             data:{},
             params:{}
         });
