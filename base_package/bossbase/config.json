@@ -179,9 +179,140 @@
         ]
       },
       {
-        "name":"public",
-        "type":"file",
-        "download":"http://g.togetu.in/base-file/js/public/"
+        "name": "public",
+        "type": "dir",
+        "files": [
+          {
+            "name": "components",
+            "type": "dir",
+            "files": [
+              {
+                "name": "EditPassword.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/EditPassword.vue"
+              },
+              {
+                "name": "IScript.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/IScript.vue"
+              },
+              {
+                "name": "Main.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/Main.vue"
+              },
+              {
+                "name": "Nav.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/Nav.vue"
+              },
+              {
+                "name": "OSSUpload.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/OSSUpload.vue"
+              },
+              {
+                "name": "UploadBase.vue",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/components/UploadBase.vue"
+              }
+            ]
+          },
+          {
+            "name": "iconfont",
+            "type": "dir",
+            "files": [
+              {
+                "name": "iconfont.css",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.css"
+              },
+              {
+                "name": "iconfont.eot",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.eot"
+              },
+              {
+                "name": "iconfont.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.js"
+              },
+              {
+                "name": "iconfont.svg",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.svg"
+              },
+              {
+                "name": "iconfont.ttf",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.ttf"
+              },
+              {
+                "name": "iconfont.woff",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/iconfont/iconfont.woff"
+              }
+            ]
+          },
+          {
+            "name": "sass",
+            "type": "dir",
+            "files": [
+              {
+                "name": "reset.scss",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/sass/reset.scss"
+              },
+              {
+                "name": "sass_fn.scss",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/sass/sass_fn.scss"
+              }
+            ]
+          },
+          {
+            "name": "src",
+            "type": "dir",
+            "files": [
+              {
+                "name": "ajax.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/src/ajax.js"
+              },
+              {
+                "name": "locale.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/src/locale.js"
+              },
+              {
+                "name": "login_data.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/src/login_data.js"
+              },
+              {
+                "name": "to_hindi_date.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/src/to_hindi_date.js"
+              }
+            ]
+          },
+          {
+            "name": "nav_data.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/public/nav_data.js"
+          },
+          {
+            "name": "router",
+            "type": "dir",
+            "files": [
+              {
+                "name": "index.js",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/main/public/router/index.js"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
