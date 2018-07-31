@@ -327,22 +327,22 @@
           {
             "name": "build.dev.js",
             "type": "file",
-            "file_template": "default_build_dev"
+            "download": "http://g.togetu.in/base-file/cli/build/build.dev.js"
           },
           {
             "name": "build.js",
             "type": "file",
-            "file_template": "default_build"
+            "download": "http://g.togetu.in/base-file/cli/build/build.js"
           },
           {
             "name": "build.test.js",
             "type": "file",
-            "file_template": "default_build_test"
+            "download": "http://g.togetu.in/base-file/cli/build/build.test.js"
           },
           {
             "name": "build.location.js",
             "type": "file",
-            "file_template": "default_build_location"
+            "download": "http://g.togetu.in/base-file/cli/build/build.location.js"
           }
         ]
       },
@@ -353,32 +353,32 @@
           {
             "name": "css.loaders.js",
             "type": "file",
-            "file_template": "default_css_loaders"
+            "download": "http://g.togetu.in/base-file/cli/configs/css.loaders.js"
           },
           {
             "name": "webpack.config.base.js",
             "type": "file",
-            "file_template": "default_webpack_config_base"
+            "download": "http://g.togetu.in/base-file/cli/configs/webpack.config.base.js"
           },
           {
             "name": "webpack.config.dev.js",
             "type": "file",
-            "file_template": "default_webpack_config_dev"
+            "download": "http://g.togetu.in/base-file/cli/configs/webpack.config.dev.js"
           },
           {
             "name": "webpack.config.location.js",
             "type": "file",
-            "file_template": "default_webpack_config_location"
+            "download": "http://g.togetu.in/base-file/cli/configs/webpack.config.location.js"
           },
           {
             "name": "webpack.config.pro.js",
             "type": "file",
-            "file_template": "default_webpack_config_pro"
+            "download": "http://g.togetu.in/base-file/cli/configs/webpack.config.pro.js"
           },
           {
             "name": "webpack.config.test.js",
             "type": "file",
-            "file_template": "default_webpack_config_test"
+            "download": "http://g.togetu.in/base-file/cli/configs/webpack.config.test.js"
           }
         ]
       },
@@ -389,12 +389,12 @@
           {
             "name": "json_to_language_file.js",
             "type": "file",
-            "file_template": "default_json_to_language_file"
+            "download": "http://g.togetu.in/base-file/cli/translation/json_to_language_file.js"
           },
           {
             "name": "language_file_to_json.js",
             "type": "file",
-            "file_template": "default_language_file_to_json"
+            "download": "http://g.togetu.in/base-file/cli/translation/language_file_to_json.js"
           }
         ]
       }
