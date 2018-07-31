@@ -18,7 +18,7 @@ program
 const _createFilePromise = (file_name, file_template, download_url) => new Promise(resolve => {
   const _file_path = `${PRINT}${path.sep}${file_name}`;
   let _template = "";
-  if (file_template) {
+  if (typeof file_template==="string") {
     const _file_template_path = `${packages}${package_name}${path.sep}template${path.sep}${file_template}.js`
     try {
       _template = require(_file_template_path);
