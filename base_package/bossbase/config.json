@@ -177,6 +177,11 @@
             ]
           }
         ]
+      },
+      {
+        "name":"public",
+        "type":"file",
+        "download":"http://g.togetu.in/base-file/js/public/"
       }
     ]
   },
