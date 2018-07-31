@@ -18,4 +18,5 @@ package-lock.json
 /cli/translation/import
 /cli/translation/print
 /conf
+/nginx
 `;
