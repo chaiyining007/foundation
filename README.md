@@ -6,7 +6,7 @@ npm install foundation-project -g
 ```
 ## 使用
 ```sh
-create 项目名称 --[package_name=包名称，默认project]
+create 名称 --[package_name=包名称，默认bossbase]
 ```
 
 ## packageNames
@@ -19,11 +19,11 @@ create 项目名称 --[package_name=包名称，默认project]
 
 4. egg：egg3层模板：包含：controller，model，service
 
-5. zdyp_backstage
+5. mcn
 
-6. zdypwap
+6. bossbase
 
-7. mcn
+7. bbp // boss base page
 
 ## 配置
 ```sh
@@ -52,6 +52,11 @@ cd /usr/local/lib/node_modules
         "name": "创建文件名",
         "type": "file",//类型
         "file_template":"component"//默认代码模板
+      },
+      {
+        "name": "创建文件名",
+        "type": "file",//类型
+        "download":"下载地址"//支持下载
       }
     ]
   }

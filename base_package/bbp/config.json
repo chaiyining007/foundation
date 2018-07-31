@@ -1,0 +1,76 @@
+[
+  {
+    "name": "language",
+    "type": "dir",
+    "files": [
+      {
+        "name": "en.json",
+        "type": "file",
+        "file_template": "default_en"
+      },
+      {
+        "name": "in.json",
+        "type": "file",
+        "file_template": "default_in"
+      },
+      {
+        "name": "cn.json",
+        "type": "file",
+        "file_template": "default_cn"
+      },
+      {
+        "name": "index.js",
+        "type": "file",
+        "file_template": "default_language_index"
+      }
+    ]
+  },
+  {
+    "name": "sass",
+    "type": "dir",
+    "files": [
+      {
+        "name": "style.scss",
+        "type": "file",
+        "file_template": ""
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "type": "dir",
+    "files": [
+      {
+        "name": "components",
+        "type": "dir",
+        "files": [
+          {
+            "name": "my-component.vue",
+            "type": "file",
+            "file_template": "default_component"
+          }
+        ]
+      },
+      {
+        "name": "computed.js",
+        "type": "file",
+        "file_template": "default_computed"
+      },
+      {
+        "name": "methods.js",
+        "type": "file",
+        "file_template": "default_methods"
+      },
+      {
+        "name": "watch.js",
+        "type": "file",
+        "file_template": "default_watch"
+      }
+    ]
+  },
+  {
+    "name": "main.vue",
+    "type": "file",
+    "file_template": "default_app"
+  }
+]

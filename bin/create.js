@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 const argv = require('yargs').argv;
 const [name] = argv._;
-const { package_name = "project" } = argv;
+const { package_name = "bossbase" } = argv;
 const packages = `../base_package/`;
 const configs = require(`${packages}${package_name}/config.json`);
 
