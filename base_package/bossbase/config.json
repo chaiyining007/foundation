@@ -308,7 +308,7 @@
               {
                 "name": "index.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/main/public/router/index.js"
+                "download": "http://g.togetu.in/base-file/main/router/index.js"
               }
             ]
           }
