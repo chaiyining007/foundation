@@ -300,17 +300,17 @@
             "name": "nav_data.js",
             "type": "file",
             "download": "http://g.togetu.in/base-file/main/public/nav_data.js"
-          },
+          }
+        ]
+      },
+      {
+        "name": "router",
+        "type": "dir",
+        "files": [
           {
-            "name": "router",
-            "type": "dir",
-            "files": [
-              {
-                "name": "index.js",
-                "type": "file",
-                "download": "http://g.togetu.in/base-file/main/router/index.js"
-              }
-            ]
+            "name": "index.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/main/router/index.js"
           }
         ]
       }
