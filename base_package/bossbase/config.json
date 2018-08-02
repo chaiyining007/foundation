@@ -411,7 +411,7 @@
           {
             "name": "iview.css",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/css/iview.css"
+            "download": "http://g.togetu.in/base-file/libs/css/iview.css"
           },
           {
             "name": "fonts",
@@ -420,22 +420,22 @@
               {
                 "name": "ionicons.eot",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.eot"
+                "download": "http://g.togetu.in/base-file/libs/css/fonts/ionicons.eot"
               },
               {
                 "name": "ionicons.svg",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.svg"
+                "download": "http://g.togetu.in/base-file/libs/css/fonts/ionicons.svg"
               },
               {
                 "name": "ionicons.ttf",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.ttf"
+                "download": "http://g.togetu.in/base-file/libs/css/fonts/ionicons.ttf"
               },
               {
                 "name": "ionicons.woff",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/css/fonts/ionicons.woff"
+                "download": "http://g.togetu.in/base-file/libs/css/fonts/ionicons.woff"
               }
             ]
           }
@@ -448,32 +448,32 @@
           {
             "name": "iview.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/iview.js"
+            "download": "http://g.togetu.in/base-file/libs/js/iview.js"
           },
           {
             "name": "iview.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/iview.min.js"
+            "download": "http://g.togetu.in/base-file/libs/js/iview.min.js"
           },
           {
             "name": "vue-i18n.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/vue-i18n.js"
+            "download": "http://g.togetu.in/base-file/libs/js/vue-i18n.js"
           },
           {
             "name": "vue-i18n.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/vue-i18n.min.js"
+            "download": "http://g.togetu.in/base-file/libs/js/vue-i18n.min.js"
           },
           {
             "name": "vue.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/vue.js"
+            "download": "http://g.togetu.in/base-file/libs/js/vue.js"
           },
           {
             "name": "vue.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/js/vue.min.js"
+            "download": "http://g.togetu.in/base-file/libs/js/vue.min.js"
           }
         ]
       }
