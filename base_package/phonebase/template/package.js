@@ -1,8 +1,8 @@
 module.exports = (base_data) => `{
-  "name": "togetu",
+  "name": "${base_data.name}",
   "version": "1.0.0",
   "description": "A Hilo Demo",
-  "author": "zhuran <jinliang.jl@taobao.com>",
+  "author": "",
   "private": true,
   "scripts": {
     "dll": "webpack --config builder/dll.config.js && cnpm run dev",
@@ -14,8 +14,7 @@ module.exports = (base_data) => `{
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "build2": "node builder/build.js",
-    "xxx":"node xxx.js"
+    "build2": "node builder/build.js"
   },
   "dependencies": {
     "axios": "^0.18.0",

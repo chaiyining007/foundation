@@ -277,16 +277,16 @@
   {
     "name": "package.json",
     "type": "file",
-    "file_template": "package.js"
+    "file_template": "package"
   },
   {
     "name": ".eslintignore",
     "type": "file",
-    "file_template": "eslintignore.js"
+    "file_template": "eslintignore"
   },
   {
     "name": ".eslintrc.js",
     "type": "file",
-    "file_template": "eslintrc.js"
+    "file_template": "eslintrc"
   }
 ]
