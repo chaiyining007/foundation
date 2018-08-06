@@ -1,0 +1,292 @@
+[
+  {
+    "name": "builder",
+    "type": "dir",
+    "files": [
+      {
+        "name": "build.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/build.js"
+      },
+      {
+        "name": "check-versions.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/check-versions.js"
+      },
+      {
+        "name": "dll.config.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/dll.config.js"
+      },
+      {
+        "name": "entrys.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/entrys.js"
+      },
+      {
+        "name": "vue-loader.conf.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/vue-loader.conf.js"
+      },
+      {
+        "name": "webpack.base.conf.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/webpack.base.conf.js"
+      },
+      {
+        "name": "webpack.dev.conf.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/webpack.dev.conf.js"
+      },
+      {
+        "name": "webpack.prod.conf.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/builder/webpack.prod.conf.js"
+      }
+    ]
+  },
+  {
+    "name": "config",
+    "type": "dir",
+    "files": [
+      {
+        "name": "dev.env.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/config/dev.env.js"
+      },
+      {
+        "name": "entrys.json",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/config/entrys.json"
+      },
+      {
+        "name": "index.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/config/index.js"
+      },
+      {
+        "name": "prod.env.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/config/prod.env.js"
+      },
+      {
+        "name": "test.env.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/config/test.env.js"
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "type": "dir",
+    "files": [
+      {
+        "name": "assets",
+        "type": "dir",
+        "files": [
+          {
+            "name": "font",
+            "type": "dir",
+            "files": [
+              {
+                "name": "iconfont.eot",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/assets/font/iconfont.eot"
+              },
+              {
+                "name": "iconfont.svg",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/assets/font/iconfont.svg"
+              },
+              {
+                "name": "iconfont.ttf",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/assets/font/iconfont.ttf"
+              },
+              {
+                "name": "iconfont.woff",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/assets/font/iconfont.woff"
+              }
+            ]
+          },
+          {
+            "name": "BebasNeue-Regular.otf",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/assets/BebasNeue-Regular.otf"
+          },
+          {
+            "name": "eruda-v1.2.6-min.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/assets/eruda-v1.2.6-min.js"
+          },
+          {
+            "name": "flexible.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/assets/flexible.js"
+          },
+          {
+            "name": "iconfont.css",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/assets/iconfont.css"
+          },
+          {
+            "name": "iconfont.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/assets/iconfont.js"
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "type": "dir",
+        "files": [
+          {
+            "name": "dialog.vue",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/components/dialog.vue"
+          },
+          {
+            "name": "loading.vue",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/components/loading.vue"
+          },
+          {
+            "name": "tgu-dialog.vue",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/components/tgu-dialog.vue"
+          },
+          {
+            "name": "toast.vue",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/components/toast.vue"
+          }
+        ]
+      },
+      {
+        "name": "less",
+        "type": "dir",
+        "files": [
+          {
+            "name": "common",
+            "type": "dir",
+            "files": [
+              {
+                "name": "_core.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/common/_core.less"
+              }
+            ]
+          },
+          {
+            "name": "helpers",
+            "type": "dir",
+            "files": [
+              {
+                "name": "_css3.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_css3.less"
+              },
+              {
+                "name": "_flexible.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_flexible.less"
+              },
+              {
+                "name": "_functions.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_functions.less"
+              },
+              {
+                "name": "_layout.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_layout.less"
+              },
+              {
+                "name": "_reset.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_reset.less"
+              },
+              {
+                "name": "_variables.less",
+                "type": "file",
+                "download": "http://g.togetu.in/base-file/phonebase/src/less/helpers/_variables.less"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pages",
+        "type": "dir",
+        "files": []
+      },
+      {
+        "name": "router",
+        "type": "dir",
+        "files": [
+          {
+            "name": "index.js",
+            "type": "file",
+            "download": "http://g.togetu.in/base-file/phonebase/src/router/index.js"
+          }
+        ]
+      },
+      {
+        "name": "App.vue",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/src/App.vue"
+      },
+      {
+        "name": "main.js",
+        "type": "file",
+        "download": "http://g.togetu.in/base-file/phonebase/src/main.js"
+      }
+    ]
+  },
+  {
+    "name": ".babelrc",
+    "type": "file",
+    "file_template": "babelrc"
+  },
+  {
+    "name": ".gitignore",
+    "type": "file",
+    "file_template": "gitignore"
+  },
+  {
+    "name": ".postcssrc.js",
+    "type": "file",
+    "file_template": "postcssrc"
+  },
+  {
+    "name": "README.md",
+    "type": "file",
+    "file_template": "README"
+  },
+  {
+    "name": "index.html",
+    "type": "file",
+    "download": "http://g.togetu.in/base-file/phonebase/index.html"
+  },
+  {
+    "name": ".editorconfig",
+    "type": "file",
+    "file_template": "editorconfig"
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "file_template": "package.js"
+  },
+  {
+    "name": ".eslintignore",
+    "type": "file",
+    "file_template": "eslintignore.js"
+  },
+  {
+    "name": ".eslintrc.js",
+    "type": "file",
+    "file_template": "eslintrc.js"
+  }
+]
