@@ -6,17 +6,17 @@
       {
         "name": "App.vue",
         "type": "file",
-        "download": "http://g.togetu.in/base-file/bossbase/main/App.vue"
+        "download": "https://g.togetu.in/base-file/bossbase/main/App.vue"
       },
       {
         "name": "main.js",
         "type": "file",
-        "download": "http://g.togetu.in/base-file/bossbase/main/main.js"
+        "download": "https://g.togetu.in/base-file/bossbase/main/main.js"
       },
       {
         "name": "template.html",
         "type": "file",
-        "download": "http://g.togetu.in/base-file/bossbase/main/template.html"
+        "download": "https://g.togetu.in/base-file/bossbase/main/template.html"
       },
       {
         "name": "language",
@@ -25,42 +25,42 @@
           {
             "name": "cn.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/cn.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/cn.json"
           },
           {
             "name": "en.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/en.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/en.json"
           },
           {
             "name": "in.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/in.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/in.json"
           },
           {
             "name": "date_time_cn.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/date_time_cn.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_cn.json"
           },
           {
             "name": "date_time_en.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/date_time_en.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_en.json"
           },
           {
             "name": "date_time_in.json",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/date_time_in.json"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_in.json"
           },
           {
             "name": "global_i18n.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/global_i18n.js"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/global_i18n.js"
           },
           {
             "name": "index.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/language/index.js"
+            "download": "https://g.togetu.in/base-file/bossbase/main/language/index.js"
           }
         ]
       },
@@ -79,7 +79,7 @@
                   {
                     "name": "main.vue",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/error/404/main.vue"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/error/404/main.vue"
                   }
                 ]
               },
@@ -90,7 +90,7 @@
                   {
                     "name": "main.vue",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/error/500/main.vue"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/error/500/main.vue"
                   }
                 ]
               }
@@ -103,7 +103,7 @@
               {
                 "name": "main.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/pages/index/main.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/pages/index/main.vue"
               }
             ]
           },
@@ -114,7 +114,7 @@
               {
                 "name": "main.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/main.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/main.vue"
               },
               {
                 "name": "language",
@@ -123,22 +123,22 @@
                   {
                     "name": "cn.json",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/language/cn.json"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/cn.json"
                   },
                   {
                     "name": "en.json",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/language/en.json"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/en.json"
                   },
                   {
                     "name": "in.json",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/language/in.json"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/in.json"
                   },
                   {
                     "name": "index.js",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/language/index.js"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/index.js"
                   }
                 ]
               },
@@ -149,7 +149,7 @@
                   {
                     "name": "style.scss",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/sass/style.scss"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/sass/style.scss"
                   }
                 ]
               },
@@ -160,17 +160,17 @@
                   {
                     "name": "computed.js",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/src/computed.js"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/computed.js"
                   },
                   {
                     "name": "methods.js",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/src/methods.js"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/methods.js"
                   },
                   {
                     "name": "watch.js",
                     "type": "file",
-                    "download": "http://g.togetu.in/base-file/bossbase/main/pages/login/src/watch.js"
+                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/watch.js"
                   }
                 ]
               }
@@ -189,32 +189,32 @@
               {
                 "name": "EditPassword.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/EditPassword.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/EditPassword.vue"
               },
               {
                 "name": "IScript.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/IScript.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/IScript.vue"
               },
               {
                 "name": "Main.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/Main.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/Main.vue"
               },
               {
                 "name": "Nav.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/Nav.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/Nav.vue"
               },
               {
                 "name": "OSSUpload.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/OSSUpload.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/OSSUpload.vue"
               },
               {
                 "name": "UploadBase.vue",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/components/UploadBase.vue"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/UploadBase.vue"
               }
             ]
           },
@@ -225,32 +225,32 @@
               {
                 "name": "iconfont.css",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.css"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.css"
               },
               {
                 "name": "iconfont.eot",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.eot"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.eot"
               },
               {
                 "name": "iconfont.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.js"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.js"
               },
               {
                 "name": "iconfont.svg",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.svg"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.svg"
               },
               {
                 "name": "iconfont.ttf",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.ttf"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.ttf"
               },
               {
                 "name": "iconfont.woff",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.woff"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.woff"
               }
             ]
           },
@@ -261,12 +261,12 @@
               {
                 "name": "reset.scss",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/sass/reset.scss"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/sass/reset.scss"
               },
               {
                 "name": "sass_fn.scss",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/sass/sass_fn.scss"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/sass/sass_fn.scss"
               }
             ]
           },
@@ -277,29 +277,29 @@
               {
                 "name": "ajax.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/src/ajax.js"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/ajax.js"
               },
               {
                 "name": "locale.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/src/locale.js"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/locale.js"
               },
               {
                 "name": "login_data.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/src/login_data.js"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/login_data.js"
               },
               {
                 "name": "to_hindi_date.js",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/main/public/src/to_hindi_date.js"
+                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/to_hindi_date.js"
               }
             ]
           },
           {
             "name": "nav_data.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/public/nav_data.js"
+            "download": "https://g.togetu.in/base-file/bossbase/main/public/nav_data.js"
           }
         ]
       },
@@ -310,7 +310,7 @@
           {
             "name": "index.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/main/router/index.js"
+            "download": "https://g.togetu.in/base-file/bossbase/main/router/index.js"
           }
         ]
       }
@@ -327,22 +327,22 @@
           {
             "name": "build.dev.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/build/build.dev.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.dev.js"
           },
           {
             "name": "build.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/build/build.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.js"
           },
           {
             "name": "build.test.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/build/build.test.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.test.js"
           },
           {
             "name": "build.location.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/build/build.location.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.location.js"
           }
         ]
       },
@@ -353,32 +353,32 @@
           {
             "name": "css.loaders.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/css.loaders.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/css.loaders.js"
           },
           {
             "name": "webpack.config.base.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.base.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.base.js"
           },
           {
             "name": "webpack.config.dev.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.dev.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.dev.js"
           },
           {
             "name": "webpack.config.location.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.location.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.location.js"
           },
           {
             "name": "webpack.config.pro.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.pro.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.pro.js"
           },
           {
             "name": "webpack.config.test.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.test.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.test.js"
           }
         ]
       },
@@ -389,12 +389,12 @@
           {
             "name": "json_to_language_file.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/translation/json_to_language_file.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/translation/json_to_language_file.js"
           },
           {
             "name": "language_file_to_json.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/cli/translation/language_file_to_json.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/translation/language_file_to_json.js"
           }
         ]
       }
@@ -411,7 +411,7 @@
           {
             "name": "iview.css",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/css/iview.css"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/css/iview.css"
           },
           {
             "name": "fonts",
@@ -420,22 +420,22 @@
               {
                 "name": "ionicons.eot",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.eot"
+                "download": "https://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.eot"
               },
               {
                 "name": "ionicons.svg",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.svg"
+                "download": "https://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.svg"
               },
               {
                 "name": "ionicons.ttf",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.ttf"
+                "download": "https://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.ttf"
               },
               {
                 "name": "ionicons.woff",
                 "type": "file",
-                "download": "http://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.woff"
+                "download": "https://g.togetu.in/base-file/bossbase/libs/css/fonts/ionicons.woff"
               }
             ]
           }
@@ -448,32 +448,32 @@
           {
             "name": "iview.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/iview.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/iview.js"
           },
           {
             "name": "iview.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/iview.min.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/iview.min.js"
           },
           {
             "name": "vue-i18n.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/vue-i18n.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/vue-i18n.js"
           },
           {
             "name": "vue-i18n.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/vue-i18n.min.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/vue-i18n.min.js"
           },
           {
             "name": "vue.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/vue.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/vue.js"
           },
           {
             "name": "vue.min.js",
             "type": "file",
-            "download": "http://g.togetu.in/base-file/bossbase/libs/js/vue.min.js"
+            "download": "https://g.togetu.in/base-file/bossbase/libs/js/vue.min.js"
           }
         ]
       }
