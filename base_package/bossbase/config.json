@@ -6,17 +6,17 @@
       {
         "name": "App.vue",
         "type": "file",
-        "download": "https://g.togetu.in/base-file/bossbase/main/App.vue"
+        "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/App.vue"
       },
       {
         "name": "main.js",
         "type": "file",
-        "download": "https://g.togetu.in/base-file/bossbase/main/main.js"
+        "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/main.js"
       },
       {
         "name": "template.html",
         "type": "file",
-        "download": "https://g.togetu.in/base-file/bossbase/main/template.html"
+        "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/template.html"
       },
       {
         "name": "language",
@@ -25,42 +25,42 @@
           {
             "name": "cn.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/cn.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/cn.json"
           },
           {
             "name": "en.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/en.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/en.json"
           },
           {
             "name": "in.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/in.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/in.json"
           },
           {
             "name": "date_time_cn.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_cn.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/date_time_cn.json"
           },
           {
             "name": "date_time_en.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_en.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/date_time_en.json"
           },
           {
             "name": "date_time_in.json",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/date_time_in.json"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/date_time_in.json"
           },
           {
             "name": "global_i18n.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/global_i18n.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/global_i18n.js"
           },
           {
             "name": "index.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/language/index.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/language/index.js"
           }
         ]
       },
@@ -79,7 +79,7 @@
                   {
                     "name": "main.vue",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/error/404/main.vue"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/error/404/main.vue"
                   }
                 ]
               },
@@ -90,7 +90,7 @@
                   {
                     "name": "main.vue",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/error/500/main.vue"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/error/500/main.vue"
                   }
                 ]
               }
@@ -103,7 +103,7 @@
               {
                 "name": "main.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/pages/index/main.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/index/main.vue"
               }
             ]
           },
@@ -114,7 +114,7 @@
               {
                 "name": "main.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/main.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/main.vue"
               },
               {
                 "name": "language",
@@ -123,22 +123,22 @@
                   {
                     "name": "cn.json",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/cn.json"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/language/cn.json"
                   },
                   {
                     "name": "en.json",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/en.json"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/language/en.json"
                   },
                   {
                     "name": "in.json",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/in.json"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/language/in.json"
                   },
                   {
                     "name": "index.js",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/language/index.js"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/language/index.js"
                   }
                 ]
               },
@@ -149,7 +149,7 @@
                   {
                     "name": "style.scss",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/sass/style.scss"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/sass/style.scss"
                   }
                 ]
               },
@@ -160,17 +160,17 @@
                   {
                     "name": "computed.js",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/computed.js"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/src/computed.js"
                   },
                   {
                     "name": "methods.js",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/methods.js"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/src/methods.js"
                   },
                   {
                     "name": "watch.js",
                     "type": "file",
-                    "download": "https://g.togetu.in/base-file/bossbase/main/pages/login/src/watch.js"
+                    "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/pages/login/src/watch.js"
                   }
                 ]
               }
@@ -189,32 +189,32 @@
               {
                 "name": "EditPassword.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/EditPassword.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/EditPassword.vue"
               },
               {
                 "name": "IScript.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/IScript.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/IScript.vue"
               },
               {
                 "name": "Main.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/Main.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/Main.vue"
               },
               {
                 "name": "Nav.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/Nav.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/Nav.vue"
               },
               {
                 "name": "OSSUpload.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/OSSUpload.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/OSSUpload.vue"
               },
               {
                 "name": "UploadBase.vue",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/components/UploadBase.vue"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/components/UploadBase.vue"
               }
             ]
           },
@@ -225,32 +225,32 @@
               {
                 "name": "iconfont.css",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.css"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.css"
               },
               {
                 "name": "iconfont.eot",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.eot"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.eot"
               },
               {
                 "name": "iconfont.js",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.js"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.js"
               },
               {
                 "name": "iconfont.svg",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.svg"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.svg"
               },
               {
                 "name": "iconfont.ttf",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.ttf"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.ttf"
               },
               {
                 "name": "iconfont.woff",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/iconfont/iconfont.woff"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/iconfont/iconfont.woff"
               }
             ]
           },
@@ -261,12 +261,12 @@
               {
                 "name": "reset.scss",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/sass/reset.scss"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/sass/reset.scss"
               },
               {
                 "name": "sass_fn.scss",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/sass/sass_fn.scss"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/sass/sass_fn.scss"
               }
             ]
           },
@@ -277,29 +277,29 @@
               {
                 "name": "ajax.js",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/ajax.js"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/src/ajax.js"
               },
               {
                 "name": "locale.js",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/locale.js"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/src/locale.js"
               },
               {
                 "name": "login_data.js",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/login_data.js"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/src/login_data.js"
               },
               {
                 "name": "to_hindi_date.js",
                 "type": "file",
-                "download": "https://g.togetu.in/base-file/bossbase/main/public/src/to_hindi_date.js"
+                "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/src/to_hindi_date.js"
               }
             ]
           },
           {
             "name": "nav_data.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/public/nav_data.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/public/nav_data.js"
           }
         ]
       },
@@ -310,7 +310,7 @@
           {
             "name": "index.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/main/router/index.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/main/router/index.js"
           }
         ]
       }
@@ -321,43 +321,59 @@
     "type": "dir",
     "files": [
       {
+        "name": "backup",
+        "type": "dir",
+        "files": [
+          {
+            "name": "backdown.js",
+            "type": "file",
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/backup/backdown.js"
+          },
+          {
+            "name": "backup.js",
+            "type": "file",
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/backup/backup.js"
+          }
+        ]
+      },
+      {
         "name": "build",
         "type": "dir",
         "files": [
           {
             "name": "build.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/build.js"
           },
           {
             "name": "check-versions.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/check-versions.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/check-versions.js"
           },
           {
             "name": "utils.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/utils.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/utils.js"
           },
           {
             "name": "vue-loader.conf.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/vue-loader.conf.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/vue-loader.conf.js"
           },
           {
             "name": "webpack.base.conf.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.base.conf.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/webpack.base.conf.js"
           },
           {
             "name": "webpack.dev.conf.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.dev.conf.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/webpack.dev.conf.js"
           },
           {
             "name": "webpack.prod.conf.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.prod.conf.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/build/webpack.prod.conf.js"
           }
         ]
       },
@@ -368,7 +384,7 @@
           {
             "name": "dev.env.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/dev.env.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/configs/dev.env.js"
           },
           {
             "name": "index.js",
