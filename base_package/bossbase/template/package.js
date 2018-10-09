@@ -64,7 +64,6 @@ module.exports = (base_data) => `{
     "element-ui": "^2.4.6",
     "libs-js": "^1.1.5",
     "vue-router": "^3.0.1",
-    "vue-ueditor": "^0.1.3",
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0",
     "xmlstring2json": "^0.1.9"
