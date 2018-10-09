@@ -378,23 +378,23 @@
         ]
       },
       {
-        "name": "configs",
+        "name": "config",
         "type": "dir",
         "files": [
           {
             "name": "dev.env.js",
             "type": "file",
-            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/configs/dev.env.js"
+            "download": "http://togetu-cn.oss-cn-beijing.aliyuncs.com/base-file/bossbase/cli/config/dev.env.js"
           },
           {
             "name": "index.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/index.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/config/index.js"
           },
           {
             "name": "prod.env.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/prod.env.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/config/prod.env.js"
           }
         ]
       },
