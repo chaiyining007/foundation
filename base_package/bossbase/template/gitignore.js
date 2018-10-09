@@ -19,4 +19,5 @@ package-lock.json
 /cli/translation/print
 /conf
 /nginx
+/backups
 `;

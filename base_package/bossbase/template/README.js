@@ -21,11 +21,13 @@ https://www.npmjs.com/package/libs-js
 
 ## 启动
 \`\`\`sh
-单次编译
-npm run build_dev
+npm run dev           // 默认热更 请求反向代理至   120.55.21.8:8991(日常环境)
 
-监听
-npm run watch
+npm run dev --nohot   // 不热更编译 请求反向代理至   120.55.21.8:8991(日常环境)
+
+npm run dev --dev     // 请求反向代理至   120.55.21.8:8891(开发环境，容易跪)
+
+npm run dev --pre     // 请求反向代理至   pre.boss.togetu.in(预发环境)
 \`\`\`
 
 ## nginx

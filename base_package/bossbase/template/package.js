@@ -4,37 +4,49 @@ module.exports = (base_data) => `{
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build_dev": "node cli/build/build.dev.js",
-    "build_test": "node cli/build/build.test.js",
-    "watch": "node cli/build/build.location.js  --watch=true",
-    "build": "node cli/build/build.js",
     "json_to_language_file": "node cli/translation/json_to_language_file.js",
-    "language_file_to_json": "node cli/translation/language_file_to_json.js"
+    "j2f": "node cli/translation/json_to_language_file.js",
+    "language_file_to_json": "node cli/translation/language_file_to_json.js",
+    "translate": "node cli/translation/translate.js",
+    "dev": "webpack-dev-server --progress --config cli/build/webpack.dev.conf.js",
+    "build": "node cli/build/build.js",
+    "backdown": "node cli/backup/backdown.js"
   },
+  
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/helper-module-imports": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
     "autoprefixer": "^8.1.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-component": "^1.1.0",
-    "babel-plugin-import": "^1.6.7",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.8.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.10",
+    "decompress": "^4.2.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "gulp": "^3.9.1",
     "html-webpack-plugin": "^3.0.6",
     "iview": "^2.14.3",
     "iview-loader": "^1.0.0",
     "jquery": "^3.3.1",
+    "node-notifier": "^5.2.1",
     "node-sass": "^4.7.2",
     "node-ssh": "^5.1.1",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^2.0.0",
+    "portfinder": "^1.0.17",
+    "postcss-import": "^12.0.0",
     "postcss-loader": "^2.1.1",
+    "postcss-url": "^8.0.0",
     "sass-loader": "^6.0.7",
+    "select-shell": "^1.1.2",
     "style-loader": "^0.20.3",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "url-loader": "^1.0.1",
@@ -43,12 +55,16 @@ module.exports = (base_data) => `{
     "vue-style-loader": "^4.0.2",
     "vue-template-compiler": "^2.5.15",
     "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-dev-server": "^2.11.3",
     "webpack-merge": "^4.1.2",
     "yargs": "^11.0.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "libs-js": "^1.0.19",
+    "element-ui": "^2.4.6",
+    "libs-js": "^1.1.5",
+    "md5": "^2.2.1",
     "vue-qriously": "^1.1.1",
     "vue-router": "^3.0.1",
     "vue-ueditor": "^0.1.3",
@@ -57,6 +73,16 @@ module.exports = (base_data) => `{
     "xmlstring2json": "^0.1.9"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "ie 10"
+  ]
 }
 `;

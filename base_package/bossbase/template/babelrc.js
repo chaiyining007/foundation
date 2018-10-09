@@ -1,17 +1,29 @@
 module.exports = (base_data) => `{
   "presets": [
-      "es2015",
-      "stage-0"
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "useBuiltIns": "usage"
+      }
+    ]
   ],
   "plugins": [
-      [
-          "import",
-          {
-              "libraryName": "iview",
-              "libraryDirectory": "src/components"
-          }
-      ],
-      "transform-runtime"
+    "transform-vue-jsx",
+    [
+      "import",
+      {
+        "libraryName": "iview",
+        "libraryDirectory": "src/components"
+      }
+    ],
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
   ]
 }
 `;

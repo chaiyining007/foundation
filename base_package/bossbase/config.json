@@ -325,24 +325,39 @@
         "type": "dir",
         "files": [
           {
-            "name": "build.dev.js",
-            "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.dev.js"
-          },
-          {
             "name": "build.js",
             "type": "file",
             "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.js"
           },
           {
-            "name": "build.test.js",
+            "name": "check-versions.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.test.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/check-versions.js"
           },
           {
-            "name": "build.location.js",
+            "name": "utils.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/build/build.location.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/utils.js"
+          },
+          {
+            "name": "vue-loader.conf.js",
+            "type": "file",
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/vue-loader.conf.js"
+          },
+          {
+            "name": "webpack.base.conf.js",
+            "type": "file",
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.base.conf.js"
+          },
+          {
+            "name": "webpack.dev.conf.js",
+            "type": "file",
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.dev.conf.js"
+          },
+          {
+            "name": "webpack.prod.conf.js",
+            "type": "file",
+            "download": "https://g.togetu.in/base-file/bossbase/cli/build/webpack.prod.conf.js"
           }
         ]
       },
@@ -351,34 +366,19 @@
         "type": "dir",
         "files": [
           {
-            "name": "css.loaders.js",
+            "name": "dev.env.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/css.loaders.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/dev.env.js"
           },
           {
-            "name": "webpack.config.base.js",
+            "name": "index.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.base.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/index.js"
           },
           {
-            "name": "webpack.config.dev.js",
+            "name": "prod.env.js",
             "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.dev.js"
-          },
-          {
-            "name": "webpack.config.location.js",
-            "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.location.js"
-          },
-          {
-            "name": "webpack.config.pro.js",
-            "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.pro.js"
-          },
-          {
-            "name": "webpack.config.test.js",
-            "type": "file",
-            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/webpack.config.test.js"
+            "download": "https://g.togetu.in/base-file/bossbase/cli/configs/prod.env.js"
           }
         ]
       },
@@ -395,6 +395,11 @@
             "name": "language_file_to_json.js",
             "type": "file",
             "download": "https://g.togetu.in/base-file/bossbase/cli/translation/language_file_to_json.js"
+          },
+          {
+            "name": "translate.js",
+            "type": "file",
+            "download": "https://g.togetu.in/base-file/bossbase/cli/translation/translate.js"
           }
         ]
       }
