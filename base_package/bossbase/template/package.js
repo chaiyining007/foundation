@@ -12,7 +12,6 @@ module.exports = (base_data) => `{
     "build": "node cli/build/build.js",
     "backdown": "node cli/backup/backdown.js"
   },
-  
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
@@ -64,8 +63,6 @@ module.exports = (base_data) => `{
     "axios": "^0.18.0",
     "element-ui": "^2.4.6",
     "libs-js": "^1.1.5",
-    "md5": "^2.2.1",
-    "vue-qriously": "^1.1.1",
     "vue-router": "^3.0.1",
     "vue-ueditor": "^0.1.3",
     "vuex": "^3.0.1",

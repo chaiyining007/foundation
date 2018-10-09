@@ -519,5 +519,10 @@
     "name": "package.json",
     "type": "file",
     "file_template": "package"
+  },
+  {
+    "name":".postcssrc.js",
+    "type": "file",
+    "file_template": "postcssrc"
   }
 ]
