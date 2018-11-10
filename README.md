@@ -19,7 +19,7 @@ create 名称 --[package_name=包名称，默认bossbase]
 
 4. egg：egg3层模板：包含：controller，model，service
 
-5. mcn
+5. boss
 
 6. bossbase
 
