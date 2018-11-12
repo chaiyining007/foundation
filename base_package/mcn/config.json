@@ -62,5 +62,9 @@
     "name": "main.vue",
     "type": "file",
     "file_template": "default_app"
+  },{
+    "name": "index.js",
+    "type": "file",
+    "file_template": "default_index"
   }
 ]
