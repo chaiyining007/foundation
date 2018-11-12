@@ -23,7 +23,9 @@ create 名称 --[package_name=包名称，默认bossbase]
 
 6. bossbase
 
-7. bbp // boss base page
+7. mcn
+
+8. bbp // boss base page
 
 ## 配置
 ```sh

@@ -26,21 +26,10 @@ export default {
         console.log('源文件：','${base_data.name}');
         console.log('this：',this);
         console.log('$route：',this.$route);
-        const { seccess,error,data } = await ajax({
-            url:"/",
-            method: 'get',//get,post,put,delete,patch
-            data:{},
-            params:{}
-        });
-        if (seccess) {
-            
-        } else {
-            this.$Message.error(error || this.$t('error_msg'));
-        }
     }
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 @import './sass/style.scss';
 </style>
 `;
