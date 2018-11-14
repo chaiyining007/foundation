@@ -9,7 +9,6 @@ import Main from "components/Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
 import computed from "./src/computed";
-// import { Form, FormItem, Input, Select, Button } from "element-ui";
 export default {
   data: function(){
     return {};
