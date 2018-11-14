@@ -1,6 +1,6 @@
 module.exports = (base_data)=>
 `import { merge } from 'public/helper/libs'
-
+import element_languages from '@/i18n/element-ui.js'
 import base_languages from '@/i18n/languages.json'
 import languages from './languages.json'
 
