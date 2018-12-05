@@ -1,16 +1,17 @@
 module.exports = (base_data) => `/*页面级，组件 */
 <template>
-    <Main class="${base_data.name.split('/')[base_data.name.split('/').length-1]}">
+    <Main class="${base_data.name.split('/')[base_data.name.split('/').length-1]}" nav_key="" title="">
         
     </Main>
 </template>
 <script>
+import i18n from "./language";
 import ajax from "main/public/src/ajax.js";
 import Main from "components/Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
 import computed from "./src/computed";
-import i18n from "./language";
+
 export default {
     data: function(){
         return {};
