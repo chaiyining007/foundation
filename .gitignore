@@ -2,3 +2,4 @@
 npm-debug.log
 print/*
 node_modules/*
+package-lock.json
