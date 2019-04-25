@@ -5,12 +5,12 @@ module.exports = (base_data) => `/*页面级，组件 */
     </Main>
 </template>
 <script>
-import ajax from "main/public/src/ajax.js";
-import Main from "components/Main";
+import ajax from "ajax.js";
+import Main from "Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
 import computed from "./src/computed";
-import i18n from "./language";
+
 export default {
     data: function(){
         return {};

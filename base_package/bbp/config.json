@@ -1,31 +1,5 @@
 [
   {
-    "name": "language",
-    "type": "dir",
-    "files": [
-      {
-        "name": "en.json",
-        "type": "file",
-        "file_template": "default_en"
-      },
-      {
-        "name": "in.json",
-        "type": "file",
-        "file_template": "default_in"
-      },
-      {
-        "name": "cn.json",
-        "type": "file",
-        "file_template": "default_cn"
-      },
-      {
-        "name": "index.js",
-        "type": "file",
-        "file_template": "default_language_index"
-      }
-    ]
-  },
-  {
     "name": "sass",
     "type": "dir",
     "files": [
