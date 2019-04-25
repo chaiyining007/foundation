@@ -5,7 +5,7 @@ module.exports = (base_data) => `/*页面级，组件 */
     </Main>
 </template>
 <script>
-import ajax from "ajax.js";
+import ajax from "ajax";
 import Main from "Main";
 import watch from "./src/watch";
 import methods from "./src/methods";
