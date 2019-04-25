@@ -15,7 +15,6 @@ export default {
     data: function(){
         return {};
     },
-    i18n,
     watch: watch,
     methods: methods,
     computed: computed,
@@ -35,7 +34,7 @@ export default {
         if (seccess) {
             
         } else {
-            this.$Message.error(error || this.$t('error_msg'));
+            this.$message.error(error || '系统繁忙，请稍后再试！');
         }
     }
 };
