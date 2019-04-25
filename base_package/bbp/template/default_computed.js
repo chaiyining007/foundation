@@ -11,7 +11,7 @@ show_error(){
 
 ps: https://cn.vuejs.org/v2/guide/computed.html
 */
-import ajax from "main/public/src/ajax.js";
+import ajax from "ajax";
 export default {
 
 };
