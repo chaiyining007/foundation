@@ -1,6 +1,6 @@
 module.exports = (base_data) => `/*页面级，组件 */
 <template>
-    <Main class="${base_data.name.split('/')[base_data.name.split('/').length-1]}" nav_key="" :popstate="popstate">
+    <Main class="${base_data.name.split('/')[base_data.name.split('/').length-1]}" title="Title" nav_key="" :popstate="popstate">
         <template #headAppend>
             <div>
             <!-- <el-button type="success">按钮</el-button> -->
