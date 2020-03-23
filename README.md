@@ -27,6 +27,8 @@ create 名称 --[package_name=包名称，默认bossbase]
 
 8. bbp // boss base page
 
+9. bbpl // 后台列表页面模板
+
 ## 配置
 ```sh
 #超级小白走法
