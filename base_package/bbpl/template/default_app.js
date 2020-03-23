@@ -68,6 +68,7 @@ export default {
         console.log('源文件：','${base_data.name}');
         console.log('this：',this);
         console.log('$route：',this.$route);
+        this.search();
     }
 };
 </script>
